@@ -1,0 +1,54 @@
+@import "reset.css";
+body{font-size: 14px;font-family: "DejaVu Sans","Microsoft Sans Serif",verdana,sans-serif; background:url(../img/bg.png);}
+div#contenedor{width:980px;height:auto;overflow:hidden;margin:0 auto 20px auto;border-radius:0 0 6px 6px;box-shadow:0 0 15px black;}
+div#cintillo{width:980px;height:52px;border-bottom:4px solid #d21913;}
+div#banner{width:980px;height:240px;position:relative;}
+div#logo{width:365px;height:240px;float:left;}
+#nav {height:auto;overflow:hidden;background-color: #883626;}
+/*Menu*/
+ul#jsddm {list-style: none;padding: 0;}
+ul#jsddm li {float: left;font-size: 12px;line-height: 40px;padding: 0;}
+ul#jsddm li a {color: white;display: block;line-height: 24px;margin: 0;padding: 5px 22px;text-decoration: none;white-space: nowrap;text-align:center;text-transform:uppercase;}
+ul#jsddm li a:hover{color: #FFF;background-color: #980000;}
+ul#jsddm li a.active {background-color: #980000;color: white;font-weight:bold;}
+ul#jsddm li ul {margin: 0;padding: 0;position: absolute;visibility: hidden;z-index: 1000;}
+ul#jsddm li:hover ul {visibility: visible;}
+ul#jsddm li ul li {display: inline;float: none;}
+ul#jsddm li ul li a {background-color: #883626;color: white;margin: 0;padding: 5px 10px;text-align:left;}
+ul#jsddm li ul li a:hover {background-color: #980000;}
+/*Fin Menu*/
+div#contenido{width:980px; height:auto;overflow:hidden;background:#FFF;padding:10px 10px 0 10px;font-size:16px;}
+div#pie{width:980px;height:auto;overflow:hidden;padding:20px 0;background: #883626; }
+ul#menu_pie{width:795px;background:#D6E26E;height:auto;overflow:hidden;margin:0 auto 20px auto;border-radius:4px;}
+ul#menu_pie li a{float:left;padding:10px 10px;text-decoration:none;font-size:15px;color:#889800;font-weight:bold;}
+p#contenido_pie{margin:0 auto;width:960px;text-align:center;line-height:20px;color:white;}
+p#contenido_pie a{text-decoration:none;color:white;font-weight:bold;}
+div#banner_galeria{width:732px;height:240px;float:left;position:absolute;left:248px;z-index:-9999;background:#FFF;}
+div#izquierdo{width:650px;height:auto;overflow:hidden;float:left;margin-right:10px;}
+h1.titulo{padding:10px 0;color:#4D4D46;font-size:20px;font-weight:bold;border-bottom:1px solid #000;margin:5px 0 20px 0;}
+p.parrafo{line-height:25px;text-align:justify;}
+div#derecho{width:955px;height:auto;overflow:hidden;float:left;}
+h1.titulo2{color:#1F5D22;font-size:18px;font-weight:bold;padding:10px 0 10px 10px;border-bottom:1px solid #A6BA00;}
+div.cuadro{display:block;background:#F6FFE7;height:auto;overflow:hidden;border:1px solid #A6BA00;margin:20px 0;border-radius:2px;}
+div.cuadro p{padding:10px;}
+div.cuadro img {margin:10px 0 10px 30px;}
+div.cuadro table{margin:0 auto;}
+div.cuadro table tr td{padding:5px 0;}
+div.cuadro table tr td a{text-decoration:none;font-weight:bold;color:#1F5D22;}
+span#fecha{font-size:12px;font-weight:bold;display:block;margin-top:10px;text-align:right;}
+div#contenedor_noticias{padding:10px 0 0 0;height:auto;overflow:hidden;}
+div#contenedor_noticias img{float:left;margin-right:10px;}
+div#contenedor_noticias h2{font-size:18px;color:#4D4D46;font-weight:bold;padding:0 0 10px 0;}
+div#contenedor_noticias p{text-align:justify;line-height:18px;font-size:16px;}
+div#contenedor_noticias p a{text-decoration:none;color:#1F5D22;font-weight:bold;}
+div.noticia{border-bottom:1px solid #889800;margin-bottom:30px;padding-bottom:10px;}
+span#todas_noticias{display:block;text-align:right;padding:0 0 10px 0;}
+span#todas_noticias a{text-decoration:none;font-weight:bold;color:#889800;}
+div#formulario{padding:0 0 10px 0;}
+div#formulario table:first-child{margin-bottom:10px;background:#F6FFE7;border:3px solid #889800;}
+div#formulario table:last-child{background:#F6FFE7;border:3px solid #889800;width:450px;}
+div#formulario table:first-child tr td{padding:3px 10px;}
+div#formulario table tr td:first-child{font-weight:bold;color:#889800;}
+div#formulario table:first-child tr td input[type=text]{padding: 2px 5px;border-radius:3px;}
+div#formulario table:first-child tr td select{padding: 2px;border-radius:3px;width:164px;}
+div#formulario table{margin:0 auto;}
